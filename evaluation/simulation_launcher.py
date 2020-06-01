@@ -4,7 +4,7 @@ from evaluation import scenario
 
 def main():
     print("Starting Simulation Process.")
-    scenario_instance = scenario.Scenario("all_tribes_aggressive")
+    scenario_instance = scenario.Scenario("all_tribes_random")
     launch_scenario(scenario_instance)
     print("Finished Simulation Process.")
 
